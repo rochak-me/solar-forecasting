@@ -1,0 +1,30 @@
+{
+  "site_name": "Combined (All 6 Sites)",
+  "is_combined": true,
+  "site_folder": null,
+  "all_site_folders": {
+    "Site 1": "D:\\Semester Project and Notes\\3rd Year Project\\Site1 data",
+    "Site 2": "D:\\Semester Project and Notes\\3rd Year Project\\Site 2 data",
+    "Site 3": "D:\\Semester Project and Notes\\3rd Year Project\\Site 3 Data",
+    "Site 4": "D:\\Semester Project and Notes\\3rd Year Project\\Site 4 data",
+    "Site 5": "D:\\Semester Project and Notes\\3rd Year Project\\Site 5 data",
+    "Site 6": "D:\\Semester Project and Notes\\3rd Year Project\\Site 6 data"
+  },
+  "run_pipelines": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "run_horizons": [
+    "1h",
+    "24h"
+  ],
+  "max_epochs": 50,
+  "patience": 8,
+  "batch_size": 256,
+  "split_doy": 170,
+  "window_days": 14,
+  "n_yearly_lags": 5,
+  "trailing_days": 14
+}
